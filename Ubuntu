@@ -16,3 +16,5 @@ sudo ufw allow ssh
 ## Connecting SSH from other machine
 ##=====================================
 ssh username@ip_address
+
+## SSH port is 22
