@@ -1,0 +1,18 @@
+## How to install SSH in Ubuntu
+##=====================================
+sudo apt update
+sudo apt install openssh-server
+
+## To check SSH Server status
+##=====================================
+sudo systemctl status ssh
+
+##Press "q" to go back.
+
+## Allow SSH from Ubuntu Firewall
+##=====================================
+sudo ufw allow ssh
+
+## Connecting SSH from other machine
+##=====================================
+ssh username@ip_address
